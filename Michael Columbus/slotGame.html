@@ -1,0 +1,64 @@
+<!--Description: html home page
+    Author: Michael Columbus  
+    
+     Use jquerymobile builder on main page temple for html footer, header and nav bar-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title> mobile profit page</title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+         <link rel="stylesheet" href="CSS/home.css" />
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js">
+        </script>
+        <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js">
+        </script>
+        <script src="JS/main.js">
+        </script>
+    </head>
+    
+     <!-- setup the header and navbar and get the theme pick from the querymobile html builder -->
+    
+    <body>
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    welcome
+                </h3>
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="projects.html" data-transition="fade" data-theme="" data-icon="back">
+                                back to project page
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ball.html" data-transition="fade" data-theme="" data-icon="next">
+                                next project
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+               
+                </div>
+            </div>
+           
+                <div id=content">
+                		<h1> Slots Game Infor </h1>
+        				<p> This slots game have a bet line of +5, +10, +25, and +50. It keep track of the player infor like money. player have a random chance of getting a jackpot. </p>
+                	
+                </div>
+            
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3>
+                    copyright Michael Columbus
+                </h3>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!--Description: html home page
+    Author: Michael Columbus  
+    
+     Use jquerymobile builder on main page temple for html footer, header and nav bar-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title> mobile profit page</title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+          <link rel="stylesheet" href="CSS/home.css" />
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js">
+        </script>
+        <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js">
+        </script>
+        <script src="JS/contactme.js">
+        </script>
+       
+    </head>
+    <body>
+         <!-- setup the header and navbar and get the theme pick from the querymobile html builder -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Welcome
+                </h3>
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="Mhome.html" data-transition="fade" data-theme="" data-icon="home">
+                                home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Maboutme.html" data-transition="fade" data-theme="" data-icon="info">
+                                About Me
+                            </a>
+                        </li>
+                        <li>
+                             <a href="Mcontactme.html" data-transition="fade"  data-icon="info"class="ui-btn-active ui-state-persist" >
+                                Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="Mservices.html" data-transition="fade"  data-icon="arrow-r">
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Mprojects.html" data-transition="fade"  data-icon="arrow-r">
+                                Projects
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+             <div id="content">
+                	<h1> Contact Infor </h1>
+        			<p>  You can contact me at mcolumbus@hotmail.ca or 705-534-0102 </p>
+                	
+                    
+                    <h1> Keep Connected... </h1>
+    				<a href="https://www.facebook.com/michael.columbus1"> <img src="image/facebook.png" width= "40"/></a>
+          			<a href="http://www.linkedin.com/profile/view?id=229821560&trk=hb_tab_pro_top"> <img src="image/linken.png" width="40"/> </a>
+                    
+                    
+                    <a href="http://webdesign4.georgianc.on.ca/~200168145/michael_columbus_assignment1/michael_columbus_assignment1/home.html">
+                        Full Site
+                    </a>
+                </div>
+           
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3>
+                    copyright Michael Columbus
+                </h3>
+            </div>
+        </div>
+    </body>
+</html>

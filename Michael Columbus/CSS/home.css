@@ -1,0 +1,14 @@
+/******************************************************************
+* Description: Stlye Sheet for home page
+* Author: Michael Columbus
+* main css
+******************************************************************/
+/*for content*/
+
+#content {
+	background-color:#F60;
+}
+
+A:hover {
+ hover:#F00;
+}
